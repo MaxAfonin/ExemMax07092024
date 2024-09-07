@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
 import {useAppContext} from  "../../context/ContextProvider";
 import { useState, useEffect } from "react";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup"
-import * as yup from "yup";
+// import { useForm } from "react-hook-form";
+// import { yupResolver } from "@hookform/resolvers/yup"
+// import * as yup from "yup";
 
 
 

@@ -14,8 +14,9 @@ return (
 
         <AppContextProvider>
         <div className={styles.container}>
+            <div className={styles.hoverIMG}></div>
                     <div className={styles.accaunt }><Link  to="/admin" >Личный кабинет </Link> </div>            
-                <div className={styles.div}>
+                    <div className={styles.div}>
                     
                     <CalcNav/>
                    <RenderPage/>

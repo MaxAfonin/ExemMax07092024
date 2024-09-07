@@ -6,6 +6,7 @@
         flex-direction: row;
         min-width: 320px;
         gap: 30px;
+
         @media (max-width: 1500px) {
             display: block;
             width: 1200px;
@@ -27,7 +28,17 @@
             width: 320px;
             max-width: 320px;
           }
-        
+          .hoverIMG{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1300px ;
+
+            height: 400px;
+            background-image: url(./header.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0px -150px;
+          }
 
     }
     .calc {
