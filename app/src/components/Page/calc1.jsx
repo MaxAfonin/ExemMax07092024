@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 
 export default function Page(){ // услцуги
-    const  {PageArr, typeCalc} =  useAppContext(); // Массив
+    const  {PageArr, typeCalc, service} =  useAppContext(); // Массив
 
 
 
@@ -15,12 +15,10 @@ export default function Page(){ // услцуги
 
 
     return (
-        <div className={styles.inputForm}>
+        <div className={styles.inputForm}> 
+            
             <h1>{PageArr[typeCalc].name}</h1>
-            Наши услуги:Конные прогулки по живописному лесу, 1200 руб.
-            Обучение верховой езде для взрослых и детей от 2-х лет, 1500 руб.
-            Фотосессии с лошадьми, 1000 руб.
-            Экскурсии на конюшню, 800 руб.
-            Подарочные сертификаты, 1000 руб, 2000 руб.
-        </div>
+            <h2> Наши услуги </h2>
+            {service.map(elem => <div> <h3> {elem.name}  </h3>  <p>{elem.cost} руб</p> </div> )}
+            </div>
     )};

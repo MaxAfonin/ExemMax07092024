@@ -5,7 +5,7 @@ import INPUTnumber from "../microElements/InputNumber"
 
 
 
-export default function Page(){ //"Пенсионные накопления"
+export default function Page(){ //
     const  {PageArr, typeCalc} =  useAppContext(); // Массив
 
 
@@ -18,5 +18,6 @@ export default function Page(){ //"Пенсионные накопления"
     return (
         <div className={styles.inputForm}>
             <h1>{PageArr[typeCalc].name}</h1>
+            
         </div>
     )};
