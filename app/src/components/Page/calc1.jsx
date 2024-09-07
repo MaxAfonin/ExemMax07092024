@@ -20,5 +20,8 @@ export default function Page(){ // услцуги
             <h1>{PageArr[typeCalc].name}</h1>
             <h2> Наши услуги </h2>
             {service.map(elem => <div> <h3> {elem.name}  </h3>  <p>{elem.cost} руб</p> </div> )}
+
+            <img src="./5416.jpg" alt="" />
+
             </div>
     )};
