@@ -38,6 +38,8 @@ setDateRecord([month, dey, hour, min]);
 
         <div>Вы выбрали время для встречи: {dateRecord[2]}:{dateRecord[3]}  и дату     {dateRecord[1]}.{dateRecord[0]}.2024  </div>
 
+        <img src="./D60.jpg" alt="" />
+
 
 
         </div>

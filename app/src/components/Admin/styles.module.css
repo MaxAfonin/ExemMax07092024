@@ -67,3 +67,8 @@
     width: 100%;
   }
 }
+
+img {
+  margin-top: 30px;
+  max-width: 1200px;
+}
