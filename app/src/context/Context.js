@@ -29,6 +29,7 @@ const PageArr =
 
 let PageTrue = [true, true, true, true, true]
 
+if (localStorage.getItem("DateRecord") === null) {localStorage.setItem("DateRecord", [0,0,0,0] )}; // Проверяем есть ли информация о дате встречи в локалхосте, если нет, то обнуляем
 
 
 

@@ -9,7 +9,7 @@ export default function INPUT(props){
         <div>
             <div className={styles.title}>{lable}</div>
             <div className={styles.inputDiv}> 
-                <input type="number" pattern="[0-9]{1-7}" value={state} onChange={(event) =>{ setState(event.target.value)}}  />
+                <input type="number" pattern="[0-9]{1-2}" value={state} onChange={(event) =>{ setState(event.target.value)}}  />
                 <span>{span}</span>
             </div>
         </div>
