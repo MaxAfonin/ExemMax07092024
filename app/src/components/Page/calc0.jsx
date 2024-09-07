@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 export default function Page(){ // Главная
-    const  {PageArr, typeCalc} =  useAppContext(); // Массив
+    const  {PageArr, typeCalc, news} =  useAppContext(); // Массив
 
 
 
@@ -28,5 +28,10 @@ export default function Page(){ // Главная
 
                 Верховая езда – это настоящая панацея для современного общества, в жизни которого преобладает сидячий образ жизни, повышенные умственные нагрузки, работа с гаджетами. А еще – это профилактика и лечение многих болезней, снятие стресса, чувства тревоги, психологическая разгрузка.<p/>
                                 </div>
+
+
+            <div className={styles.news} >
+                { news.map(elem => <div><h3>{elem.text}</h3><br/> {elem.date} </div>)}
+            </div>
         </div>
     )};

@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect} from 'react';
-
+import news from "./news.json";
 
 
 export const useCreateAppContext = function(props) {
@@ -58,6 +58,7 @@ let PageTrue = [true, true, true, true, true]
     
     return {
         PageArr, PageTrue,  // Массив страниц
+        news,  // Новости 
         typeCalc, toggleTypeCalc // Тип страницы 0-4
 }
 }
