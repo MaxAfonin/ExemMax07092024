@@ -79,8 +79,9 @@
 }
 
 .accaunt {
-  width: calc(100% - 100px);
+  width: calc(100% - 50px);
   height: 30px;
-  right: 100px;
+  right: 50px;
   text-align: end;
+  margin-bottom: 50px;
 }

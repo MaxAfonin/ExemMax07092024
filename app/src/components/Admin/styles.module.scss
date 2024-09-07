@@ -1,7 +1,5 @@
 .container {
     margin: 0 auto;
-    margin: 0 auto;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     min-width: 320px;
@@ -28,6 +26,10 @@
         max-width: 320px;
       }
     
+      .admin{
+        max-width: 1200px;
+        margin: 0 auto;
+      }
 
 }
 .calc {

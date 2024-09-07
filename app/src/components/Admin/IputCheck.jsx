@@ -29,8 +29,9 @@ setDateRecord([month, dey, hour, min]);
 
 
     return (
-        <div className="">
+        <div className={styles.admin}>
             <br/>
+           <div>Онлайн-запись! Вы можете записаться на зонятие:</div> 
         <INPUTnumber lable={"Напишите номер месяца"}  state = {month} setState={setMonth}/> 
         <INPUTnumber lable={"Напишите число"}  state = {dey} setState={setDey}/>
         <INPUTnumber lable={"Напишите час"}  state = {hour} setState={setHour}/>

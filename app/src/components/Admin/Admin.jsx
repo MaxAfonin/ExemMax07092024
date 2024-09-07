@@ -12,9 +12,9 @@ export default function Admin(){
 
             <div className={styles.container}>
 
-            Онлайн-запись! Вы можете записаться на зонятие: 
                 <AppContextProvider>
-                <div>
+                <div>            
+                    
                      <InputCheck/>
                     <Link to="/" >Вернуться в Home</Link>
                 </div>
