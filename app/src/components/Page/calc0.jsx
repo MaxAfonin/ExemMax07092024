@@ -31,6 +31,7 @@ export default function Page(){ // Главная
 
 
             <div className={styles.news} >
+                <h2>Анонсы предстоящих событий </h2> 
                 { news.map(elem => <div><h3>{elem.text}</h3><br/> {elem.date} </div>)}
             </div>
         </div>
