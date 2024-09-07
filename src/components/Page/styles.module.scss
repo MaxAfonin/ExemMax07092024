@@ -1,0 +1,31 @@
+
+
+.selectDiv{
+    border: 1px solid rgba(201, 201, 201, 0.8);
+    border-radius: 4px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.selectNum{
+    border: none;
+    overflow: hidden;
+    outline: none;
+}
+  
+iframe, form{
+    margin-top: 30px;
+}
+
+.hello {
+    border-color: #f5eded;
+    border-style: solid;
+    border-width: 1px 1px 1px;
+    overflow: auto;
+    padding: 19px;
+    background: #b6b6e0;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(35, 33, 33, 0.12), 1px -2px 30px 1px rgba(53, 49, 49, 0.27);
+}
