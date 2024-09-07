@@ -12,10 +12,10 @@ export default function Admin(){
 
             <div className={styles.container}>
 
-                Какие калькуляторы работают?
+            Онлайн-запись! Вы можете записаться на зонятие: 
                 <AppContextProvider>
                 <div>
-                    {/* <InputCheck/> */}
+                     <InputCheck/>
                     <Link to="/" >Вернуться в Home</Link>
                 </div>
                 </AppContextProvider>
